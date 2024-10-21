@@ -24,6 +24,7 @@ header{
     font-size: 30px;
     font-weight: 700;
     color: white;
+
 }
 .navlist{
     display: flex;
@@ -58,13 +59,19 @@ header{
     gap: 2rem; 
 }  
 section{
-    padding: 0 15%;
+    padding: 0 12%;
 }
 .hero-text h5{
     font-size: 20px;
     font-weight: 400;
     color: white;
     margin-bottom: 40px;
+}
+.hero-text h2{
+    font-size: 50px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
 }
 .hero-text h1{
     font-family: "Protest Guerrilla", sans-serif;
@@ -86,8 +93,9 @@ section{
     margin-bottom: 40px;
 }
 .hero-img img{
-    width: 700px;
+    width: 800px;
     height: auto;
+    
 }
 .hero-text a{
     display: inline-block;
@@ -117,6 +125,7 @@ section{
     vertical-align: middle;
     margin-right: 5px
 }
+
 .icons{
     position: absolute;
     top: 50%;
@@ -153,6 +162,7 @@ section{
 .scroll-down i{
     transform: translateY(-5px);
 }
+
 @media (max-width: 1535px){
     header{
         padding: 15px 3%;
